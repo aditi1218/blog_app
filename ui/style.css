@@ -1,0 +1,149 @@
+body {
+    margin-right: 0;
+    width: 100%;
+}
+
+.container {
+    background-color: darkgray;
+    background-image: url("/ui/myimg.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+}
+
+#navbar {
+    margin-top: -3%;
+    margin-left: -2%;
+    margin-right: 0;
+    height: 90px;
+    width: 100%;
+    padding-top: 0;
+    text-align: left;
+    padding-top: 2%;
+}
+
+#menulist {
+    display: inline;
+    position: fixed;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.nav {
+    display: inline;
+    margin-left: 2.5%;
+}
+
+#loginpage {
+    background-image: url("/ui/bc.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: blue;
+    text-decoration: overline;
+}
+
+#loginwindow {
+    margin-left: 8%;
+    margin-top: 22%;
+    background-color: transparent;
+    height: 250px;
+    width: 44%;
+    border: solid thick grey;
+    position: absolute;
+    padding-top: 7%;
+    padding-left: 4%;
+    text-align: center;
+    font-size: 17pt;
+}
+
+.loginw {
+    position: absolute;
+    font-size: 16pt;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#loginbtn {
+    background-color: darkslategray;
+    font-size: 15pt;
+    height: 35px;
+    width: 70px;
+    border-radius: 8px;
+}
+
+#registerbtn {
+    background-color: indianred;
+    font-size: 15pt;
+    height: 35px;
+    width: 125px;
+    border-radius: 8px;
+}
+
+#registerbtn:hover {
+    background-color: whitesmoke;
+    font-size: 30pt;
+    height: 50px;
+    width: 150px;
+}
+
+#loginbtn:hover {
+    background-color: whitesmoke;
+    font-size: 30pt;
+    height: 50px;
+    width: 150px;
+}
+
+#loginimg {
+    position: absolute;
+    height: 250px;
+    width: 25%;
+    margin-top: 22%;
+    margin-left: 70%;
+}
+
+#contactme {
+    background-color: bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+#address {
+    position: absolute;
+    color: azure;
+    font-family: monospace;
+    margin-left: 24%;
+    margin-top: 20%;
+    font-size: 30pt;
+}
+
+#authorinfo {
+    display: inline-block;
+    width: 42%;
+    height: 450px;
+    margin-top: 6%;
+    background-color: gray;
+    border-radius: 10%;
+    margin-left: 7%;
+    opacity: 0.65;
+}
+
+#text {
+    font-size: 110%;
+    margin-left: 0;
+    margin-top: 6%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
